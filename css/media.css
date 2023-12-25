@@ -1,0 +1,111 @@
+@media (min-width: 1200px){
+    .footer3 > input,.your_message,.textarea_send{
+        width: 70%;
+        margin:10px  auto;
+        display: block;
+    }
+}
+@media (max-width: 1199px){
+
+}
+@media (max-width: 1024px){
+
+}
+@media (max-width: 990px){
+    .footer3{
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 960px){
+    .naw{
+        height: 7%;
+    }
+    .logo{
+        top: 1px;
+    }
+    .inp{
+        font-size: 15px;
+        padding-top: 4px;
+        height: 5px;
+    }
+    .inp i{
+        top: 9px;
+    }    
+
+    .navLinks{
+        display: none;
+    }
+    .opLinks > li{
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .opLinks > li > a:hover{
+        border-bottom: 2px solid #c9c9c7;
+    }
+
+    .menuIcon{
+        opacity: 1;
+        background-color: rgba(0,0,0,.4);
+        font-size: 0;
+        height: 41px;
+    }
+    .opLinks{
+        display: none;	
+    }
+    .open{
+		height: 100%;
+        width: 100%;
+		z-index: 151;
+		display: inline-block;
+        list-style: none;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .openNav{
+        height: 100%;
+		z-index: 150;
+        background-color: rgba(0,0,0,.8);
+    }
+    .logoDel{
+        display: none;
+    }
+    .inpDel{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .nkarner{
+        justify-content: center;
+    }
+    .nkarner img{
+        width: 200px;
+        
+    }
+    .mardikImg{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 425px){
+    .iconka{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .iconka i{
+        flex-shrink: 0;
+        flex-basis: 100px;
+    }
+    .inp{
+        display: none;
+    }
+
+}
